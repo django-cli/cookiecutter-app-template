@@ -1,4 +1,6 @@
 {
     "app_name": "My Django App",
-    "app_slug": "{{ cookiecutter.app_name.lower().replace(' ', '_').replace('-', '_') }}"
+    "app_slug": "{{ cookiecutter.app_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "author_email": "itotutona@evta.fr",
+    "author_name": "Titouan Bénard"
 }
