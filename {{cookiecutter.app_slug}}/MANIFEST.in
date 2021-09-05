@@ -1,0 +1,16 @@
+include AUTHORS.rst
+include LICENSE.md
+include MANIFEST.in
+include README.rst
+include HISTORY.rst
+
+recursive-include {{cookiecutter.app_slug}}/static *
+recursive-include {{cookiecutter.app_slug}}/templates *
+recursive-include {{cookiecutter.app_slug}}/templatetags *
+recursive-include {{cookiecutter.app_slug}}/tests *.py *.html
+recursive-include {{cookiecutter.app_slug}} *
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include docs *.rst conf.py Makefile make.bat *.jpg *.png *.gif
