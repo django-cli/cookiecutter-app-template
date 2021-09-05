@@ -1,0 +1,4 @@
+{
+    "app_name": "My Django App",
+    "app_slug": "{{ cookiecutter.app_name.lower().replace(' ', '_').replace('-', '_') }}"
+}
