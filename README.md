@@ -22,4 +22,4 @@ cd appname
 
 * Add your modification.
 * Create pull request to describing your modification.
-* Add your name in AUTHORS.rst
+* Add your name in AUTHORS.md
