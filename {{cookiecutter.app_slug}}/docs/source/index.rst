@@ -10,6 +10,13 @@ Welcome to {{cookiecutter.app_name}}'s documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   readme
+   usage
+   modules
+   contributing
+   authors
+   history
+
 
 
 Indices and tables
